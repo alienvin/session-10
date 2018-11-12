@@ -9,22 +9,22 @@
   <body>
     <div class="app container mt-5">
       <div class="row">
-        <div class="col-sm-6">
-          <h5>À l'EDJ, les étudiants travaillent de plus en plus</h5>
-          <p class="text-muted">Commits par mois (source: Pierre Romera).</p>
+        <div class="col-sm-12">
+          <h5>L'évolution du chômage aux États-Unis depuis 2006</h5>
+          <p class="text-muted">Le taux de chômage aux États-Unis entre 2006 et 2017 (source: Bureau of Labor Statistics).</p>
           <line-chart :height="200" class="mt-3 mb-5"></line-chart>
         </div>
 
-        <div class="col-sm-6">
-          <h5>Afrique du Sud: 10 ans de hausse du braconnage</h5>
-          <p class="text-muted">Rhinoceros tués chaque année par le braconnage en Afrique du Sud (source: South African Government).</p>
+        <div class="col-sm-12">
+          <h5>Canada: Le phishing par SMS dans chaque province</h5>
+          <p class="text-muted">Quantité d'argent perdu à cause des messages de fraude au Canada (source: Canadian Anti-Fraud Centre).</p>
           <bar-chart :height="200" class="mt-3 mb-5"></bar-chart>
         </div>
 
         <div class="col-sm-12">
-          <h5>Le chômage sous François Hollande</h5>
-          <p class="text-muted">Evolution du nombre de chômeurs inscrits à Pôle emploi depuis mai 2012 en France métropolitaine (source: Ministère du Travail).</p>
-          <multiline-chart :height="200" class="mt-3 mb-5"></multiline-chart>
+          <h5>Trust in media reporting</h5>
+          <p class="text-muted">(Source: Infratest dimap)</p>
+          <multibar-chart :height="200" class="mt-3 mb-5"></multibar-chart>
         </div>
 
         <div class="col-sm-6">
@@ -49,6 +49,7 @@
     <!-- Nos fichiers -->
     <script src="charts/line.js"></script>
     <script src="charts/multiline.js"></script>
+    <script src="charts/multibar.js"></script>
     <script src="charts/bar.js"></script>
     <script src="charts/pie.js"></script>
     <script src="charts/doughnut.js"></script>
